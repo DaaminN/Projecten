@@ -1,0 +1,92 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #302E2B;
+  color: #F8F8F8;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #769756;
+  border-radius: 5px;
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #769756;
+  border-bottom: 1px solid #F8F8F8;
+}
+
+.player-info:hover {
+  background-color: #F8F8F8;
+}
+
+.player-info p {
+  margin: 0;
+  color: #302E2B;
+}
+
+.player-details {
+  padding: 10px;
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-content {
+  background: #F8F8F8;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  color: #769756;
+}
+
+button {
+  background-color:#F8F8F8;
+  color:#769756;
+  border-radius: 5px;
+  border: solid #769756 1px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+  color:#F8F8F8;
+  background-color:#769756;
+}
+button:active {
+  transform: scale(0.9);
+}
+

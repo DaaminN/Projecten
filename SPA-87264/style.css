@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+    font-family: "Audiowide", sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.editForm {
+    display: none;
+}
+
+.alert {
+    margin-top: 10px;
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.editRecord {
+    background-color: #3a3a3a;
+    border: 0px solid transparent;
+}
+
+.editRecord:hover {
+    background-color: #5a5a5a;
+}

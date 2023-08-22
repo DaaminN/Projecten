@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+Mijn css */
+
+/* Default styles for larger screens */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #1db954;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #1db954;
+}
+
+.nav-links a.active {
+  background-color: #1db954;
+}
+
+/* Styles specific to mobile devices */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    justify-content: center;
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+
+  .nav-links a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,55 @@
+ {
+      id: 1,
+      title: 'The Real Slim Shady',
+      artist: 'Eminem',
+      url: 'music/song1.mp3',
+      image_url: 'thumbnail/img1.jpeg'
+    },    {
+      id: 2,
+      title: 'Enemy',
+      artist: 'Imagine Dragons, JID, Arcane, League of Legends',
+      url: 'music/song2.mp3',
+      image_url: 'thumbnail/img2.jpg'
+    },
+    {
+      id: 3,
+      title: 'Dont Stop Me Now',
+      artist: 'Queen',
+      url: 'music/song3.mp3',
+      image_url: 'thumbnail/img3.jpeg'
+    },
+    {
+      id: 4,
+      title: 'The Next Episode',
+      artist: 'Dr. Dre, Snoop Dogg',
+      url: 'music/song4.mp3',
+      image_url: 'thumbnail/img4.jpeg'
+    },
+    {
+      id: 5,
+      title: 'Dear God',
+      artist: 'Confetti',
+      url: 'music/song5.mp3',
+      image_url: 'thumbnail/img5.jpeg'
+    },
+    {
+      id: 6,
+      title: 'Grenade',
+      artist: 'Bruno Mars',
+      url: 'music/song6.mp3',
+      image_url: 'thumbnail/img6.jpeg'
+    },
+    {
+      id: 7,
+      title: 'My Ordinary Life',
+      artist: 'The Living Thombstone',
+      url: 'music/song7.mp3',
+      image_url: 'thumbnail/img7.jpeg'
+    },
+    // ... rest of your songs
+
+
+
+
+
+    import './App.css'; // Import the CSS file for styling
